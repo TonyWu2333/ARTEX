@@ -4,6 +4,8 @@
 
 面向企业攻击面的自主渗透测试智能体（Go 后端 + Next.js 前端）
 
+[English](README_EN.md) · **中文**
+
 🌐 **在线 Demo（模拟数据）**： <https://artex-demo.mhtsec.com>
 
 </div>
