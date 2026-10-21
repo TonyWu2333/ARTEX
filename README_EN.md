@@ -2,21 +2,40 @@
 
 # ARTEX
 
-AI-driven autonomous penetration testing system (Go backend + Next.js frontend)
+An autonomous penetration testing agent for enterprise attack surfaces (Go backend + Next.js frontend)
 
 **English** · [中文](README.md)
 
-🌐 **Live demo (mock data)**: [https://artex-demo.mhtsec.com](https://artex-demo.mhtsec.com)
-
-📦 **This repository is a pure-source backup of the final ARTEX release. The original Docker image source `autumn27/artex` is no longer available; the image is now self-maintained by this repository as `mianhuatang11/artex` (Docker Hub). If the pull fails, run `docker compose build` to build locally from pure source — no external pre-compiled dependencies required.**
+🌐 **Live demo (mock data)**: <https://artex-demo.mhtsec.com>
 
 </div>
 
 ---
 
+## Background
+
+**Artex Pro (Enterprise Edition) / ARTEX (Open-source Edition)** is an autonomous penetration testing agent for enterprise attack surfaces, a personal project by the product lead of ThreatBook RedAgents.
+
+- **Artex Pro (Enterprise Edition)** focuses on strengthening security governance: it engineers the autonomous agent into a complete red-team system that not only autonomously breaks in and discovers vulnerabilities, but is also **fully controllable, stable to run, and traceable in its results**.
+- **ARTEX (Open-source Edition)** was previously run as an open-source project. On **September 3, 2026** it won the **championship** at Baidu Security's "Agent+" offensive & defensive capability challenge; it was later maliciously abused by attackers, triggering several large-scale security incidents in the financial industry abroad, and on **October 8, 2026** it was announced to have **officially gone closed-source**.
+
+### About this repository
+
+This repository is a **pure-source backup of the last version** of the open-source ARTEX before it went closed-source, now maintained by **棉花糖 / Marshmallow** ([@mhtsec](https://github.com/mhtsec), WeChat official account **棉花糖fans**). Contributions are welcome:
+
+- 🐛 Bug reports / feature suggestions: [open an Issue](https://github.com/mhtsec/ARTEX/issues)
+- 🛠 Code contributions: feel free to submit a [Pull Request](https://github.com/mhtsec/ARTEX/pulls)
+- 💬 Community group: see [Community](#community) at the end
+
+> The original Docker image source `autumn27/artex` is no longer available; the image is now self-maintained by this repository as `mianhuatang11/artex` (Docker Hub). If the pull fails, run `docker compose build` to build locally from pure source — no external pre-compiled dependencies required.
+>
+> Thanks to the original author for the open-source contribution: the original author's WeChat official account is **SecSentry**, and the original project is [Autumn-27/ARTEX](https://github.com/Autumn-27/ARTEX).
+
+---
+
 ## Screenshots
 
-> For the full interactive experience, see the [live demo](https://artex-demo.mhtsec.com) (frontend-only + mock data, no backend needed).
+> For the full interactive experience, see the [live demo](https://artex-demo.mhtsec.com).
 
 | Dashboard (overview / token usage / activity stream) | Task list |
 | :---: | :---: |
